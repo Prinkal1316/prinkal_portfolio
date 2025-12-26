@@ -5,7 +5,7 @@ function About() {
         <div className="row align-items-center mb-5">
           <div className="col-md-5 text-center mb-4 mb-md-0">
             <img
-              src="/src/components/img/dairy.jpeg"
+              src="/src/assets/images/dairy.jpeg"
               className="img-fluid rounded shadow"
               style={{ maxWidth: "300px", filter: "grayscale(100%)" }}
               alt="Prinkal Chavan"

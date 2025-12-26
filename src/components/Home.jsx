@@ -16,7 +16,7 @@ function Home() {
           {/* Profile Image */}
           <div className="col-lg-5 text-center">
             <img
-              src="/src/components/img/profetional_photo.jpeg"
+              src="/src/assets/images/profetional_photo.jpeg"
               alt="Prinkal Chavan"
               className="img-fluid rounded-circle shadow-lg"
               style={{

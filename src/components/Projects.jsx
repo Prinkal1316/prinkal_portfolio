@@ -19,7 +19,7 @@ function Projects() {
         <div className="row align-items-center mb-5 g-4">
           <div className="col-md-6">
             <img
-              src="/src/components/img/Email_spam.png"
+              src="/src/assets/images/Email_spam.png"
               className="img-fluid rounded-3"
               style={{ filter: "grayscale(100%)" }}
               alt="Email Spam Detection"
@@ -57,7 +57,7 @@ function Projects() {
         <div className="row align-items-center mb-5 g-4 flex-md-row-reverse">
           <div className="col-md-6">
             <img
-              src="/src/components/img/Martial_art.png"
+              src="/src/assets/images/Martial_art.png"
               className="img-fluid rounded-3"
               style={{ filter: "grayscale(100%)" }}
               alt="Attendance Management System"
@@ -95,7 +95,7 @@ function Projects() {
         <div className="row align-items-center g-4">
           <div className="col-md-6">
             <img
-              src="/src/components/img/compiler2.png"
+              src="/src/assets/images/compiler2.png"
               className="img-fluid rounded-3"
               style={{ filter: "grayscale(100%)" }}
               alt="Compiler for Java, Python, C++"
