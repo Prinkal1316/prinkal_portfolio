@@ -1,0 +1,91 @@
+/* Reset and global base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Full width for app root */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Flex layout to stick footer at bottom */
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+/* Remove side padding from container-fluid globally */
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Prevent content overlap with fixed navbar */
+main,
+section:not(#home) {
+  padding-top: 80px; /* Adjust this value if your navbar height changes */
+}
+
+/* Mobile-first responsive typography */
+h1.display-4 {
+  font-size: 2.8rem;
+}
+
+@media (min-width: 768px) {
+  h1.display-4 {
+    font-size: 4.5rem;
+  }
+}
+
+/* Hover effect for links/text */
+.hover-text-light:hover,
+.hover-text-white:hover {
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+}
+
+/* Ensure images are responsive */
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/* Navbar enhancements */
+.navbar {
+  background-color: #121212 !important;
+  backdrop-filter: blur(8px); /* subtle blur effect (modern look) */
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.nav-link {
+  transition: all 0.25s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-1px);
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
