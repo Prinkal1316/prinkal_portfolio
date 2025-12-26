@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Projects from "./Projects";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import profileImg from "../assets/images/profetional_photo.jpeg";
+import introVideo from "../assets/images/20251225-1125-56.9492579.mp4";
 
 function Home() {
   const navigate = useNavigate();
@@ -13,10 +14,11 @@ function Home() {
     >
       <div className="container-fluid px-4 px-md-5">
         <div className="row align-items-center g-5">
+
           {/* Profile Image */}
           <div className="col-lg-5 text-center">
             <img
-              src="/src/assets/images/profetional_photo.jpeg"
+              src={profileImg}
               alt="Prinkal Chavan"
               className="img-fluid rounded-circle shadow-lg"
               style={{
@@ -29,18 +31,17 @@ function Home() {
             />
           </div>
 
-          {/* Text & Buttons */}
+          {/* Text */}
           <div className="col-lg-7">
             <div className="ps-lg-5">
               <h1 className="display-4 fw-bold text-center mb-3">
                 My Portfolio
               </h1>
+
               <div
                 className="border-top border-light w-25 mx-auto mb-4"
                 style={{ borderWidth: "3px" }}
               />
-
-             
 
               <p className="lead text-secondary mb-5 fs-5">
                 I am a Frontend React Developer creating clean and modern web
@@ -70,31 +71,21 @@ function Home() {
       {showVideo && (
         <div
           className="modal fade show d-block"
-          tabIndex="-1"
-          role="dialog"
           style={{ backgroundColor: "rgba(0,0,0,0.9)" }}
           onClick={() => setShowVideo(false)}
         >
-          <div
-            className="modal-dialog modal-lg modal-dialog-centered"
-            role="document"
-          >
+          <div className="modal-dialog modal-lg modal-dialog-centered">
             <div className="modal-content bg-dark border-0">
               <div className="modal-header border-0">
                 <button
-                  type="button"
                   className="btn-close btn-close-white"
                   onClick={() => setShowVideo(false)}
-                ></button>
+                />
               </div>
               <div className="modal-body p-0">
                 <div className="ratio ratio-16x9">
                   <video controls autoPlay className="w-100 h-100">
-                    <source
-                      src="/src/components/img/20251225-1125-56.9492579.mp4"
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
+                    <source src={introVideo} type="video/mp4" />
                   </video>
                 </div>
               </div>
