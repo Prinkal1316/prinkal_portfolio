@@ -6,13 +6,13 @@ function Footer() {
     <footer
       className="text-white py-5 mt-auto"
       style={{
-        background: "linear-gradient(to top, #0a0a0a, #121212)",
-        borderTop: "1px solid rgba(255, 255, 255, 0.1)",
+        background: " #121212",
+        borderTop: "1px solid rgba(19, 14, 14, 0.1)",
       }}
     >
       <div className="container-fluid px-4 px-md-5">
         <Row className="g-5">
-          {/* Brand & About */}
+          
           <Col md={4}>
             <h5 className="fw-bold mb-3 text-white">
               Prinkal Chavan
@@ -25,7 +25,7 @@ function Footer() {
             </p>
           </Col>
 
-          {/* Quick Links */}
+    
           <Col md={4}>
             <h5 className="fw-bold mb-3 text-white">
               Quick Links
@@ -54,7 +54,7 @@ function Footer() {
             </ul>
           </Col>
 
-          {/* Get in Touch – NOW CONSISTENT */}
+
           <Col md={4}>
             <h5 className="fw-bold mb-3 text-white">
               Get in Touch
@@ -73,37 +73,6 @@ function Footer() {
                 Maharashtra, India
               </li>
             </ul>
-
-            {/* Social Icons */}
-            <div className="d-flex gap-3">
-              <a
-                href="https://github.com/prinkalchavan"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-secondary fs-4 hover-text-white p-2"
-                style={{ transition: "all 0.3s ease" }}
-              >
-                <i className="bi bi-github"></i>
-              </a>
-              <a
-                href="https://linkedin.com/in/prinkalchavan"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-secondary fs-4 hover-text-white p-2"
-                style={{ transition: "all 0.3s ease" }}
-              >
-                <i className="bi bi-linkedin"></i>
-              </a>
-              <a
-                href="https://twitter.com/prinkalchavan"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-secondary fs-4 hover-text-white p-2"
-                style={{ transition: "all 0.3s ease" }}
-              >
-                <i className="bi bi-twitter-x"></i>
-              </a>
-            </div>
           </Col>
         </Row>
       </div>

@@ -15,7 +15,7 @@ function Home() {
       <div className="container-fluid px-4 px-md-5">
         <div className="row align-items-center g-5">
 
-          {/* Profile Image */}
+       
           <div className="col-lg-5 text-center">
             <img
               src={profileImg}
@@ -31,7 +31,7 @@ function Home() {
             />
           </div>
 
-          {/* Text */}
+       
           <div className="col-lg-7">
             <div className="ps-lg-5">
               <h1 className="display-4 fw-bold text-center mb-3">
@@ -67,7 +67,7 @@ function Home() {
         </div>
       </div>
 
-      {/* Video Modal */}
+   
       {showVideo && (
         <div
           className="modal fade show d-block"

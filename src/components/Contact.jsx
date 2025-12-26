@@ -19,7 +19,7 @@ function Contact() {
       id="contact"
       className="bg-dark text-white min-vh-100 py-5 d-flex align-items-center"
     >
-      <Toaster position="top-right" reverseOrder={false} />
+      <Toaster position="top-right"  />
 
       <div className="container-fluid px-4 px-md-5 px-lg-6">
         <div className="row justify-content-center">
@@ -77,8 +77,6 @@ function Contact() {
               Check out my work on{" "}
               <a
                 href="https://github.com/Prinkal1316"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="text-secondary hover-text-white fw-medium"
               >
                 GitHub

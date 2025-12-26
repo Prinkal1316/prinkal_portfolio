@@ -6,7 +6,6 @@ function NavbarComp() {
   const [expanded, setExpanded] = useState(false);
   const location = useLocation();
 
-  // Auto-close mobile menu on route change
   useEffect(() => {
     setExpanded(false);
   }, [location]);
@@ -20,7 +19,7 @@ function NavbarComp() {
       expanded={expanded}
       onToggle={() => setExpanded(!expanded)}
       className="shadow-sm border-bottom border-secondary/30 transition-all duration-300"
-      style={{ backgroundColor: "#121212" }} // Slightly deeper dark for premium feel
+      style={{ backgroundColor: "#121212" }} 
     >
       <div className="container-fluid px-4 px-md-5">
         <Navbar.Brand

@@ -38,8 +38,28 @@ function Projects() {
                 Machine learning based email spam detection system with smart
                 keyword highlighting and Flask backend.
               </p>
+              <div className="mt-3">
+                <a
+                  href="https://github.com/Prinkal1316/compiler-project" // ← Replace with actual live demo link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-light me-3"
+                >
+                  View Project
+                </a>
+                <a
+                  href="https://github.com/Prinkal1316/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-light"
+                >
+                  Source Code
+                </a>
+              </div>
             </div>
           </div>
+        
+
         </div>
 
         {/* PROJECT 2 */}
@@ -59,6 +79,24 @@ function Projects() {
                 Real-time attendance tracking system using React, Node.js, and
                 PostgreSQL.
               </p>
+              <div className="mt-3">
+                <a
+                  href="https://github.com/Prinkal1316/compiler-project" // ← Replace with actual live demo link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-light me-3"
+                >
+                  View Project
+                </a>
+                <a
+                  href="https://github.com/Prinkal1316/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-light"
+                >
+                  Source Code
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -80,6 +118,24 @@ function Projects() {
                 Centralized platform to manage college events, registrations,
                 and announcements.
               </p>
+              <div className="mt-3">
+                <a
+                  href="https://github.com/Prinkal1316/compiler-project" // ← Replace with actual live demo link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-light me-3"
+                >
+                  View Project
+                </a>
+                <a
+                  href="https://github.com/Prinkal1316/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-light"
+                >
+                  Source Code
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -90,3 +146,4 @@ function Projects() {
 }
 
 export default Projects;
+
